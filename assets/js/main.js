@@ -1,65 +1,117 @@
 // burger
-let burger_btn = document.querySelector('.burger_btn');
-let menu_close = document.querySelector('.menu_close');
-let menu_bg = document.querySelector('.menu_bg');
-let menu = document.querySelector('.menu');
+let burger_btn = document.querySelector(".burger_btn");
+let menu_close = document.querySelector(".menu_close");
+let menu_bg = document.querySelector(".menu_bg");
+let menu = document.querySelector(".menu");
 
-burger_btn.addEventListener('click', () => {
-    menu_bg.classList.add('active');
-    menu.classList.add('active');
-})
+burger_btn.addEventListener("click", () => {
+  menu_bg.classList.add("active");
+  menu.classList.add("active");
+});
 
-menu_close.addEventListener('click', () => {
-    menu_bg.classList.remove('active');
-    menu.classList.remove('active');
-})
+menu_close.addEventListener("click", () => {
+  menu_bg.classList.remove("active");
+  menu.classList.remove("active");
+});
 
-menu_bg.addEventListener('click', () => {
-    menu_bg.classList.remove('active');
-    menu.classList.remove('active');
-})
+menu_bg.addEventListener("click", () => {
+  menu_bg.classList.remove("active");
+  menu.classList.remove("active");
+});
 // burger
 
+try {
+  const selectedEl = document.querySelector(".selected-el");
+  const options = document.querySelector(".options");
+  const optionElements = document.querySelectorAll(".option");
+  const selectedText = document.querySelector(".selected-text");
 
+  selectedEl.addEventListener("click", () => {
+    options.classList.toggle("show");
+    selectedEl.classList.toggle("active");
+  });
+
+  optionElements.forEach((option) => {
+    option.addEventListener("click", () => {
+      selectedText.textContent = option.textContent;
+      options.classList.remove("show");
+      selectedEl.classList.remove("active");
+    });
+  });
+
+  // Close the dropdown if clicked outside
+  document.addEventListener("click", (e) => {
+    if (!selectedEl.contains(e.target)) {
+      options.classList.remove("show");
+      selectedEl.classList.remove("active");
+    }
+  });
+} catch (error) {
+  console.log(error);
+}
+
+try {
+  const emailInput = document.getElementById("email-input");
+  const emailValidDiv = emailInput.parentElement;
+
+  emailInput.addEventListener("input", () => {
+    if (validateEmail(emailInput.value)) {
+      emailValidDiv.classList.remove("error");
+    } else {
+      emailValidDiv.classList.add("error");
+    }
+  });
+
+  function validateEmail(email) {
+    // Regular expression for email validation
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  }
+} catch (error) {}
 
 // timer
 (function () {
-    const second = 1000,
-          minute = second * 60,
-          hour = minute * 60,
-          day = hour * 24;
+  const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
 
-    let today = new Date(),
-        dd = String(today.getDate()).padStart(2, "0"),
-        mm = String(today.getMonth() + 1).padStart(2, "0"),
-        yyyy = today.getFullYear(),
-        nextYear = yyyy + 1,
-        dayMonth = "09/30/",
-        birthday = dayMonth + yyyy;
-    
-    today = mm + "/" + dd + "/" + yyyy;
-    if (today > birthday) {
-        birthday = dayMonth + nextYear;
-    }
-    //end
-    
-    const countDown = new Date(birthday).getTime(),
-        x = setInterval(function() {    
+  let today = new Date(),
+    dd = String(today.getDate()).padStart(2, "0"),
+    mm = String(today.getMonth() + 1).padStart(2, "0"),
+    yyyy = today.getFullYear(),
+    nextYear = yyyy + 1,
+    dayMonth = "09/30/",
+    birthday = dayMonth + yyyy;
 
-        const now = new Date().getTime(),
-            distance = countDown - now;
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
 
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-            document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-            document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-            document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+  const countDown = new Date(birthday).getTime(),
+    x = setInterval(function () {
+      const now = new Date().getTime(),
+        distance = countDown - now;
 
-        if (distance < 0) {
-            document.getElementById("headline").innerText = "It's my birthday!";
-            document.getElementById("countdown").style.display = "none";
-            document.getElementById("content").style.display = "block";
-            clearInterval(x);
-        }
-        }, 0)
-}());
+      (document.getElementById("days").innerText = Math.floor(distance / day)),
+        (document.getElementById("hours").innerText = Math.floor(
+          (distance % day) / hour
+        )),
+        (document.getElementById("minutes").innerText = Math.floor(
+          (distance % hour) / minute
+        )),
+        (document.getElementById("seconds").innerText = Math.floor(
+          (distance % minute) / second
+        ));
+
+      if (distance < 0) {
+        document.getElementById("headline").innerText = "It's my birthday!";
+        document.getElementById("countdown").style.display = "none";
+        document.getElementById("content").style.display = "block";
+        clearInterval(x);
+      }
+    }, 0);
+})();
 // timer

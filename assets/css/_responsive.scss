@@ -1,515 +1,529 @@
 @media only screen and (max-width: 1300px) {
-    .main {
-        &_container {
-            max-width: calc(100% - 40px);
-        }
-
-        &_title {
-            font-size: 30px;
-            line-height: 36.01px;
-            margin-bottom: 40px;
-        }
-
-        &_btn {
-            span {
-                font-size: 17px;
-            }
-        }
-
-        &_input {
-            height: 46px;
-        }
+  .main {
+    &_container {
+      max-width: calc(100% - 40px);
     }
 
-    .home {
-        margin: 45px 0;
-
-        ul {
-            li {
-                font-size: 15px;
-                line-height: 18px;
-            }
-        }
-
-        &_text {
-            &_title {
-                text-align: left;
-                h1 {
-                    max-width: 210px;
-                    font-size: 60px;
-                    line-height: 66px;
-                }
-
-                h2 {
-                    font-size: 110px;
-                    line-height: 121px;
-                }
-            }
-
-            p {
-                font-size: 17px;
-                line-height: 20px;
-            }
-        }
-
-        &_text_btn {
-            margin: 20px 0 40px 0;
-        }
-
-        .main_btn {
-            max-width: 216px;
-        }
+    &_title {
+      font-size: 30px;
+      line-height: 36.01px;
+      margin-bottom: 40px;
     }
 
-    .contact {
-        margin-top: 110px;
-
-        &_left {
-            border-radius: 100px 0px 201px 100px;
-
-            .main_img {
-                right: -60px;
-                height: 596px;
-                max-width: 544px;
-            }
-
-            .free_icon {
-                top: 20px;
-                right: 20px;
-            }
-        }
-
-        &_form {
-            max-width: 100%;
-            padding: 40px;
-        }
-
-        &_form_two {
-            padding: 150px 0;
-        }
-
-        .main_title {
-            text-align: center;
-        }
-
-        h6 {
-            font-size: 15px;
-            line-height: 18px;
-        }
-
-        p {
-            font-size: 15px;
-            line-height: 18px;
-        }
+    &_btn {
+      span {
+        font-size: 17px;
+      }
     }
 
-    .tarif {
-        margin-top: 110px;
+    &_input {
+      height: 46px;
+    }
+  }
+
+  .home {
+    margin: 45px 0;
+
+    ul {
+      li {
+        font-size: 15px;
+        line-height: 18px;
+      }
     }
 
-    .connect {
-        margin-top: 110px;
+    &_text {
+      &_title {
+        text-align: left;
+        h1 {
+          max-width: 210px;
+          font-size: 60px;
+          line-height: 66px;
+        }
+
+        h2 {
+          font-size: 110px;
+          line-height: 121px;
+        }
+      }
+
+      p {
+        font-size: 17px;
+        line-height: 20px;
+      }
     }
 
-    .footer {
-        margin-top: 110px;
-
-        &_top {
-            padding: 110px 0;
-        }
-
-        &_bottom {
-            span {
-                font-size: 13px;
-                line-height: 15px;
-            }
-        }
-
-        &_left {
-            gap: 237px;
-        }
-
-        &_right {
-            gap: 110px;
-        }
-
-        &_information {
-            gap: 32px;
-            
-            a,address {
-                font-size: 30px;
-                line-height: 36.01px;
-            }
-        }
-
-        &_buy {
-            width: 354px;
-            height: 354px;
-
-            .main_btn {
-                left: 74px;
-                bottom: 78px;
-            }
-        }
-
-        &_text_link {
-            a {
-                font-size: 15px;
-                line-height: 17px;
-            }
-        }
+    &_text_btn {
+      margin: 20px 0 40px 0;
     }
+
+    .main_btn {
+      max-width: 216px;
+    }
+  }
+
+  .contact {
+    margin-top: 110px;
+
+    &_left {
+      border-radius: 100px 0px 201px 100px;
+
+      .main_img {
+        right: -60px;
+        height: 596px;
+        max-width: 544px;
+      }
+
+      .free_icon {
+        top: 20px;
+        right: 20px;
+      }
+    }
+
+    &_form {
+      max-width: 100%;
+      padding: 40px;
+    }
+
+    &_form_two {
+      padding: 150px 0;
+    }
+
+    .main_title {
+      text-align: center;
+    }
+
+    h6 {
+      font-size: 15px;
+      line-height: 18px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+
+  .tarif {
+    margin-top: 110px;
+  }
+
+  .connect {
+    margin-top: 110px;
+  }
+
+  .footer {
+    margin-top: 110px;
+
+    &_top {
+      padding: 110px 0;
+    }
+
+    &_bottom {
+      span {
+        font-size: 13px;
+        line-height: 15px;
+      }
+    }
+
+    &_left {
+      gap: 237px;
+    }
+
+    &_right {
+      gap: 110px;
+    }
+
+    &_information {
+      gap: 32px;
+
+      a,
+      address {
+        font-size: 30px;
+        line-height: 36.01px;
+      }
+    }
+
+    &_buy {
+      width: 354px;
+      height: 354px;
+
+      .main_btn {
+        left: 74px;
+        bottom: 78px;
+      }
+    }
+
+    &_text_link {
+      a {
+        font-size: 15px;
+        line-height: 17px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 993px) {
-    .main {
-        &_title {
-            font-size: 24px;
-            line-height: 28px;
-        }
+  .main {
+    &_title {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+
+  .header {
+    .burger_btn {
+      display: flex;
     }
 
-    .header {
-        .burger_btn {
-            display: flex;
-        }
-
-        &__link {
-            padding: 0;
-            border: none;
-        }
-
-        &__item {
-            display: none;
-        }
+    &__link {
+      padding: 0;
+      border: none;
     }
 
-    .home {
-        margin: 80px 0;
+    &__item {
+      display: none;
+    }
+  }
 
-        &_in {
-            gap: 20px;
-        }
+  .home {
+    margin: 80px 0;
 
-        &_img {
-            padding: 0 30px;
-        }
+    &_in {
+      gap: 20px;
     }
 
-    .contact {
-        margin-top: 80px;
-        padding: 0 10px;
-        &_block {
-            flex-direction: column-reverse;
-            border-radius: 100px 100px 201px 100px;
-        }
+    &_img {
+      padding: 0 30px;
+    }
+  }
 
-        &_form_two {
-            padding: 80px 0;
-
-            .main_btn {
-                max-width: 225px;
-            }
-        }
-
-        &_left {
-            height: 445px;
-
-            .main_img {
-                right: -35px;
-                width: 478px;
-                height: 524px;
-            }
-            
-            .free_icon {
-                z-index: 2;
-                width: 224px;
-                height: 224px;
-                left: 90px;
-                top: 90px;
-            }
-        }
-
-        .main_title {
-            br {
-                display: none;
-            }
-        }
+  .contact {
+    margin-top: 80px;
+    padding: 0 10px;
+    &_block {
+      flex-direction: column-reverse;
+      border-radius: 100px 100px 201px 100px;
     }
 
-    .tarif {
-        margin-top: 80px;
+    &_form_two {
+      padding: 80px 0;
+
+      .main_btn {
+        max-width: 225px;
+      }
     }
 
-    .connect {
-        margin-top: 80px;
+    &_left {
+      height: 445px;
 
-        .step_block {
-            flex-direction: column;
-        }
+      .main_img {
+        right: -35px;
+        width: 478px;
+        height: 524px;
+      }
 
-        &_step {
-            display: none;
-        }
-
-        &_card {
-            display: flex;
-            gap: 10px;
-            align-items: start;
-
-            .connect_step_number {
-                display: flex;
-            }
-
-            &_line {
-                position: relative;
-
-                p {
-                    margin-bottom: 40px;
-                }
-
-                &::after {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 37px;
-                    z-index: -1;
-                    height: 100%;
-                    width: 1px;
-                    background: $color-black;
-                }
-            }
-        }
+      .free_icon {
+        z-index: 2;
+        width: 224px;
+        height: 224px;
+        left: 90px;
+        top: 90px;
+      }
     }
 
-    .footer {
-        margin-top: 80px;
-
-        &_top {
-            padding: 80px 0;
-        }
-
-        &_left {
-            gap: 175px;
-        }
-
-        &_right {
-            gap: 80px;
-        }
-
-        &_bank {
-            margin-top: 40px;
-        }
-
-        &_link {
-            a {
-                font-size: 17px;
-                line-height: 20px;
-            }
-        }
-
-        &_information {
-            gap: 20px;
-
-            a, address {
-                font-size: 24px;
-                line-height: 28.8px;
-            }
-        }
-
-        &_buy {
-            width: 249px;
-            height: 249px;
-
-            .main_btn {
-                left: 29px;
-                bottom: 53px;
-            }
-        }
+    .main_title {
+      br {
+        display: none;
+      }
     }
+  }
+
+  .tarif {
+    margin-top: 80px;
+  }
+
+  .connect {
+    margin-top: 80px;
+
+    .step_block {
+      flex-direction: column;
+    }
+
+    &_step {
+      display: none;
+    }
+
+    &_card {
+      display: flex;
+      gap: 10px;
+      align-items: start;
+
+      .connect_step_number {
+        display: flex;
+      }
+
+      &_line {
+        position: relative;
+
+        p {
+          margin-bottom: 40px;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 37px;
+          z-index: -1;
+          height: 100%;
+          width: 1px;
+          background: $color-black;
+        }
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 80px;
+
+    &_top {
+      padding: 80px 0;
+    }
+
+    &_left {
+      gap: 175px;
+    }
+
+    &_right {
+      gap: 80px;
+    }
+
+    &_bank {
+      margin-top: 40px;
+    }
+
+    &_link {
+      a {
+        font-size: 17px;
+        line-height: 20px;
+      }
+    }
+
+    &_information {
+      gap: 20px;
+
+      a,
+      address {
+        font-size: 24px;
+        line-height: 28.8px;
+      }
+    }
+
+    &_buy {
+      width: 249px;
+      height: 249px;
+
+      .main_btn {
+        left: 29px;
+        bottom: 53px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .footer {
-        &_bottom_text {
-            align-items: start;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        &_bottom_in {
-            gap: 20px;
-        }
+  .footer {
+    &_bottom_text {
+      align-items: start;
+      flex-direction: column;
+      gap: 20px;
     }
+
+    &_bottom_in {
+      gap: 20px;
+    }
+  }
 }
 
 @media only screen and (min-width: 993px) {
-    .menu, 
-    .menu_bg,
-    .menu_bg.active {
-        display: none;
-    }
+  .menu,
+  .menu_bg,
+  .menu_bg.active {
+    display: none;
+  }
 }
 @media only screen and (max-width: 650px) {
+  .main {
+    &_title {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+  }
 
-    .main {
-        &_title {
-            font-size: 24px;
-            line-height: 28px;
-            margin-bottom: 20px;
-        }
+  #countdown {
+    width: 100%;
+  }
+
+  .pay_access {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .header {
+    .main_btn {
+      display: none;
+    }
+  }
+
+  .home {
+    &_top_text {
+      display: none;
     }
 
-    #countdown {
+    &_text {
+      &_title {
+        margin: 0;
+        flex-direction: column;
+      }
+
+      h2 {
+        font-size: 80px;
+        line-height: 88px;
+      }
+    }
+
+    &_img {
+      padding: 0;
+    }
+
+    .partners {
+      margin-top: 20px;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    p {
+      margin: 20px 0;
+    }
+
+    .home_text_btn {
+      width: 100%;
+      flex-direction: column;
+      gap: 10px;
+
+      .main_btn {
+        justify-content: space-between;
+        margin: 0;
         width: 100%;
-    }
-
-    .pay_access {
         max-width: 100%;
-        width: 100%;
+      }
+    }
+  }
+
+  .contact {
+    margin-top: 40px;
+
+    &_block {
+      border-radius: 30px 30px 92px 50px;
     }
 
-    .header {
-        .main_btn {
-            display: none;
-        }
+    &_form {
+      padding: 20px 8px;
     }
 
-    .home {
-        &_top_text {
-            display: none ;
-        }
+    &_form_two {
+      padding: 20px 20px 40px 20px;
+    }
 
-        &_text {
-            &_title {
-                margin: 0;
-                flex-direction: column;
-            }
+    &_left {
+      height: 275px;
+      border-radius: 50px 0 92px 50px;
 
-            h2 {
-                font-size: 80px;
-                line-height: 88px;
-            }
-        }
+      .main_img {
+        width: 280px;
+        height: 295px;
+        right: -35px;
+      }
 
-        &_img {
-            padding: 0;
-        }
+      .free_icon {
+        width: 121px;
+        height: 121px;
+        margin: auto 0;
+        top: 0;
+        bottom: 0;
+        left: 8px;
+      }
+    }
+  }
 
-        .partners {
-            margin-top: 20px;
-            flex-wrap: wrap;
-            gap: 5px;
-        }
+  .tarif {
+    margin-top: 40px;
 
+    &_card {
+      gap: 20px;
+    }
+
+    h6 {
+      font-size: 36px;
+      line-height: 43px;
+
+      sup {
+        font-size: 17px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .connect {
+    margin-top: 50px;
+
+    &_card {
+      &_line {
         p {
-            margin: 20px 0;
+          margin-bottom: 20px;
         }
+      }
+    }
+  }
 
-        .home_text_btn {
-            width: 100%;
-            flex-direction: column;
-            gap: 10px;
+  .footer {
+    margin-top: 20px;
 
-            .main_btn {
-                justify-content: space-between;
-                margin: 0;
-                width: 100%;
-                max-width: 100%;
-            }
-        }
-
+    &_top {
+      display: none;
     }
 
-    .contact {
-        margin-top: 40px;
-
-        &_block {
-            border-radius: 30px 30px 92px 50px;
-        }
-
-        &_form {
-            padding: 20px 8px;
-        }
-
-        &_form_two {
-            padding: 20px 20px 40px 20px;
-        }
-
-        &_left {
-            height: 275px;
-            border-radius: 50px 0 92px 50px;
-
-            .main_img {
-                width: 280px;
-                height: 295px;
-                right: -35px;
-            }
-
-            .free_icon {
-                width: 121px;
-                height: 121px;
-                margin: auto 0;
-                top: 0;
-                bottom: 0;
-                left: 8px;
-            }
-        }
+    &_media {
+      padding: 40px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
     }
 
-    .tarif {
-        margin-top: 40px;
-        
-        &_card {
-            gap: 20px;
-        }
-
-        h6 {
-            font-size: 36px;
-            line-height: 43px;
-            
-            sup {
-                font-size: 17px;
-                line-height: 20px;
-            }
-        }
+    &_information {
+      a,
+      address {
+        font-size: 17px;
+        line-height: 20px;
+      }
     }
 
-    .connect {
-        margin-top: 50px;
-
-        &_card {
-            &_line {
-                p {
-                    margin-bottom: 20px;
-                }
-            }
-        }
+    &_buy {
+      position: relative;
     }
-
-    .footer {
-        margin-top: 20px;
-
-        &_top {
-            display: none;
-        }
-
-        &_media {
-            padding: 40px 0;
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-        }
-
-        &_information {
-            a, address {
-                font-size: 17px;
-                line-height: 20px;
-            }
-        }
-
-        &_buy {
-            position: relative;
-        }
+  }
+  .modal-content {
+    padding: 40px 20px 20px 20px !important;
+  }
+  .modal-title {
+    font-size: 24px;
+    padding-bottom: 40px;
+  }
+  .modal .close-btn {
+    img {
+      width: 17px;
+      height: 18px;
     }
+  }
 }
