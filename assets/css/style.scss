@@ -133,6 +133,26 @@ address {
         line-height: 48.01px;
         color: $color-black;
         margin-bottom: 50px;
+
+        span {
+            color: $color-coral;
+
+        }
+    }
+
+    &_input {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20.4px;
+        color: $color-grey;
+        border-radius: 10px;
+        padding: 14px 20px;
+        background: $color-white;
+
+        &::placeholder {
+            color: $color-grey;
+        }
+
     }
 
 }
@@ -337,6 +357,82 @@ label {
     }
 }
 // home
+
+// contact
+.contact {
+    &_block {
+        background: $color-black;
+        border-radius: 100px;
+    }
+
+    &_left {
+        border-radius: 100px 0px 300px 100px;
+        background: $color-accent;
+        position: relative;
+
+        .free_icon {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+        }
+        
+        .main_img {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    &_form {
+        max-width: 392px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 0;
+    }
+
+    .main_title {
+        color: $color-white;
+        margin-bottom: 0;
+    }
+
+    .main_btn {
+        justify-content: space-between;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        span {
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20.4px;
+            color: $color-grey;
+        }
+    }
+
+    h6 {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20.4px;
+        color: $color-white;
+    }
+
+    p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15.6px;
+        color: $color-grey;
+
+        a {
+            color: $color-coral;
+        }
+    }
+}
+// contact
 
 // advantages
 .advantages {

@@ -85,6 +85,24 @@ address {
   color: #1A1B25;
   margin-bottom: 50px;
 }
+.main_title span {
+  color: #FF8E14;
+}
+.main_input {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.4px;
+  color: #B7B7B7;
+  border-radius: 10px;
+  padding: 14px 20px;
+  background: #FFFFFF;
+}
+.main_input::-moz-placeholder {
+  color: #B7B7B7;
+}
+.main_input::placeholder {
+  color: #B7B7B7;
+}
 
 h1,
 h2,
@@ -243,6 +261,67 @@ label {
 }
 .home_img img {
   width: 100%;
+}
+
+.contact_block {
+  background: #1A1B25;
+  border-radius: 100px;
+}
+.contact_left {
+  border-radius: 100px 0px 300px 100px;
+  background: #F0386B;
+  position: relative;
+}
+.contact_left .free_icon {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.contact_left .main_img {
+  position: absolute;
+  bottom: 0;
+}
+.contact_form {
+  max-width: 392px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0;
+}
+.contact .main_title {
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+.contact .main_btn {
+  justify-content: space-between;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact form span {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.4px;
+  color: #B7B7B7;
+}
+.contact h6 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.4px;
+  color: #FFFFFF;
+}
+.contact p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  color: #B7B7B7;
+}
+.contact p a {
+  color: #FF8E14;
 }
 
 .advantages_cards {
@@ -427,6 +506,7 @@ label {
   .main_title {
     font-size: 30px;
     line-height: 36.01px;
+    margin-bottom: 40px;
   }
   .main_btn span {
     font-size: 17px;
