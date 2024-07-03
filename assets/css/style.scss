@@ -818,11 +818,8 @@ label {
       font-weight: 400;
       line-height: 48.01px;
       color: $color-white;
-    }
-
-    a {
       @include transition();
-
+  
       &:hover {
         color: $color-accent;
       }
