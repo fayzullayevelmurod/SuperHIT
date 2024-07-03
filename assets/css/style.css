@@ -135,6 +135,24 @@ address {
   color: #F0386B;
 }
 
+.pay_access {
+  text-align: center;
+  max-width: 191px;
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FF8E14;
+  padding: 12px 20px;
+  border-radius: 1000px;
+  border: 1px solid #FF8E14;
+  transition: 0.3s ease;
+}
+.pay_access:hover {
+  color: #F0386B;
+  border: 1px solid #F0386B;
+}
+
 h1,
 h2,
 h3,
@@ -460,6 +478,79 @@ label {
   background: #1A1B25;
 }
 
+.tarif {
+  margin-top: 150px;
+}
+.tarif_card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  transition: 0.3s ease;
+  background: #1A1B25;
+}
+.tarif_card:hover {
+  background: #F0386B;
+}
+.tarif_card:hover .month {
+  color: #1A1B25;
+  border: 1px solid #1A1B25;
+}
+.tarif_card:hover .main_btn {
+  border: 1px solid #FF8E14;
+}
+.tarif_card:hover h6 {
+  color: #1A1B25;
+}
+.tarif_card:hover h6 sup {
+  color: #1A1B25;
+}
+.tarif_in {
+  gap: 20px 0;
+}
+.tarif .month {
+  transition: 0.3s ease;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #F0386B;
+  height: 38px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 500px;
+  border: 1px solid #F0386B;
+}
+.tarif h6 {
+  transition: 0.3s ease;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72.01px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.tarif h6 sup {
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.tarif .main_btn {
+  border: 1px solid transparent;
+  height: 48px;
+  max-width: 215px;
+  margin: 0 auto;
+}
+.tarif .main_btn span {
+  font-size: 17px;
+}
+
 .footer {
   margin-top: 150px;
   background: #1A1B25;
@@ -633,6 +724,9 @@ label {
     font-size: 15px;
     line-height: 18px;
   }
+  .tarif {
+    margin-top: 110px;
+  }
   .connect {
     margin-top: 110px;
   }
@@ -728,6 +822,9 @@ label {
   .contact .main_title br {
     display: none;
   }
+  .tarif {
+    margin-top: 80px;
+  }
   .connect {
     margin-top: 80px;
   }
@@ -822,6 +919,10 @@ label {
   #countdown {
     width: 100%;
   }
+  .pay_access {
+    max-width: 100%;
+    width: 100%;
+  }
   .header .main_btn {
     display: none;
   }
@@ -886,6 +987,20 @@ label {
     top: 0;
     bottom: 0;
     left: 8px;
+  }
+  .tarif {
+    margin-top: 40px;
+  }
+  .tarif_card {
+    gap: 20px;
+  }
+  .tarif h6 {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .tarif h6 sup {
+    font-size: 17px;
+    line-height: 20px;
   }
   .connect {
     margin-top: 50px;

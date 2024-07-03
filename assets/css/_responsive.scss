@@ -103,6 +103,10 @@
         }
     }
 
+    .tarif {
+        margin-top: 110px;
+    }
+
     .connect {
         margin-top: 110px;
     }
@@ -233,6 +237,10 @@
         }
     }
 
+    .tarif {
+        margin-top: 80px;
+    }
+
     .connect {
         margin-top: 80px;
 
@@ -356,6 +364,11 @@
         width: 100%;
     }
 
+    .pay_access {
+        max-width: 100%;
+        width: 100%;
+    }
+
     .header {
         .main_btn {
             display: none;
@@ -440,6 +453,24 @@
                 top: 0;
                 bottom: 0;
                 left: 8px;
+            }
+        }
+    }
+
+    .tarif {
+        margin-top: 40px;
+        
+        &_card {
+            gap: 20px;
+        }
+
+        h6 {
+            font-size: 36px;
+            line-height: 43px;
+            
+            sup {
+                font-size: 17px;
+                line-height: 20px;
             }
         }
     }

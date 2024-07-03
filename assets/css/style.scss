@@ -194,6 +194,25 @@ address {
     }
 }
 
+.pay_access {
+    text-align: center;
+    max-width: 191px;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $color-coral;
+    padding: 12px 20px;
+    border-radius: 1000px;
+    border: 1px solid $color-coral;
+    @include transition();
+
+    &:hover {
+        color: $color-accent;
+        border: 1px solid $color-accent;
+    }
+}
+
 // bootstrap
 h1,
 h2,
@@ -597,6 +616,91 @@ label {
     }
 }
 // connect
+
+// tarif
+.tarif {
+    margin-top: 150px;
+    &_card {
+        text-align: center;
+        padding: 20px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        @include transition();
+        background: $color-black;
+
+        &:hover {
+            background: $color-accent;
+
+            .month {
+                color: $color-black;
+                border: 1px solid $color-black;
+            }
+
+            .main_btn {
+                border: 1px solid $color-coral;
+            }
+
+            h6 {
+                color: $color-black;
+
+                sup {
+                    color: $color-black;
+                }
+            }
+        }
+    }
+
+    &_in {
+        gap: 20px 0;
+    }
+
+    .month {
+        @include transition();
+        width: 100%;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+        color: $color-accent;
+        height: 38px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 500px;
+        border: 1px solid $color-accent;
+    }
+
+    h6 {
+        @include transition();
+        justify-content: center;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 72.01px;
+        color: $color-white;
+        @include flex-center();
+        gap: 10px;
+
+        sup {
+            @include transition();
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+            color: $color-white;
+        }
+    }
+
+    .main_btn {
+        border: 1px solid transparent;
+        height: 48px;
+        max-width: 215px;
+        margin: 0 auto;
+
+        span {
+            font-size: 17px;
+        }
+    }
+}
+// tarif
 
 // footer
 .footer {

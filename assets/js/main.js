@@ -61,5 +61,5 @@ menu_bg.addEventListener('click', () => {
             clearInterval(x);
         }
         }, 0)
-    }());
+}());
 // timer
