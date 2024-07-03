@@ -360,6 +360,8 @@ label {
 
 // contact
 .contact {
+    margin-top: 150px;
+
     &_block {
         background: $color-black;
         border-radius: 100px;
@@ -374,11 +376,17 @@ label {
             position: absolute;
             top: 20px;
             right: 30px;
+            width: 122px;
+            height: 122px;
         }
         
         .main_img {
             position: absolute;
             bottom: 0;
+            right: 0;
+            width: 598px;
+            height: 661px;
+            flex-shrink: 0;
         }
     }
 
@@ -398,6 +406,10 @@ label {
 
     .main_btn {
         justify-content: space-between;
+
+        span {
+            color: $color-white;
+        }
     }
     
     form {
@@ -430,6 +442,10 @@ label {
         a {
             color: $color-coral;
         }
+    }
+
+    .end_text {
+        margin-top: 10px;
     }
 }
 // contact

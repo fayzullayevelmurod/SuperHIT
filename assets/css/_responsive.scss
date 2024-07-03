@@ -15,6 +15,10 @@
                 font-size: 17px;
             }
         }
+
+        &_input {
+            height: 46px;
+        }
     }
 
     .home {
@@ -51,6 +55,44 @@
         .main_btn {
             margin: 20px 0 40px 0;
             max-width: 216px;
+        }
+    }
+
+    .contact {
+        margin-top: 110px;
+
+        &_left {
+            border-radius: 100px 0px 201px 100px;
+
+            .main_img {
+                right: -60px;
+                height: 596px;
+                max-width: 544px;
+            }
+
+            .free_icon {
+                top: 20px;
+                right: 20px;
+            }
+        }
+
+        &_form {
+            max-width: 100%;
+            padding: 40px;
+        }
+
+        .main_title {
+            text-align: center;
+        }
+
+        h6 {
+            font-size: 15px;
+            line-height: 18px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 18px;
         }
     }
 
@@ -140,6 +182,39 @@
 
         &_img {
             padding: 0 30px;
+        }
+    }
+
+    .contact {
+        margin-top: 80px;
+        padding: 0 10px;
+        &_block {
+            flex-direction: column-reverse;
+            border-radius: 100px 100px 201px 100px;
+        }
+
+        &_left {
+            height: 445px;
+
+            .main_img {
+                right: -35px;
+                width: 478px;
+                height: 524px;
+            }
+            
+            .free_icon {
+                z-index: 2;
+                width: 224px;
+                height: 224px;
+                left: 90px;
+                top: 90px;
+            }
+        }
+
+        .main_title {
+            br {
+                display: none;
+            }
         }
     }
 
@@ -308,6 +383,38 @@
             }
         }
 
+    }
+
+    .contact {
+        margin-top: 40px;
+        
+        &_block {
+            border-radius: 30px 30px 92px 50px;
+        }
+
+        &_form {
+            padding: 20px 8px;
+        }
+
+        &_left {
+            height: 275px;
+            border-radius: 50px 0 92px 50px;
+
+            .main_img {
+                width: 241px;
+                height: 295px;
+                right: -23px;
+            }
+
+            .free_icon {
+                width: 121px;
+                height: 121px;
+                margin: auto 0;
+                top: 0;
+                bottom: 0;
+                left: 8px;
+            }
+        }
     }
 
     .connect {

@@ -263,6 +263,9 @@ label {
   width: 100%;
 }
 
+.contact {
+  margin-top: 150px;
+}
 .contact_block {
   background: #1A1B25;
   border-radius: 100px;
@@ -276,10 +279,16 @@ label {
   position: absolute;
   top: 20px;
   right: 30px;
+  width: 122px;
+  height: 122px;
 }
 .contact_left .main_img {
   position: absolute;
   bottom: 0;
+  right: 0;
+  width: 598px;
+  height: 661px;
+  flex-shrink: 0;
 }
 .contact_form {
   max-width: 392px;
@@ -295,6 +304,9 @@ label {
 }
 .contact .main_btn {
   justify-content: space-between;
+}
+.contact .main_btn span {
+  color: #FFFFFF;
 }
 .contact form {
   display: flex;
@@ -322,6 +334,9 @@ label {
 }
 .contact p a {
   color: #FF8E14;
+}
+.contact .end_text {
+  margin-top: 10px;
 }
 
 .advantages_cards {
@@ -511,6 +526,9 @@ label {
   .main_btn span {
     font-size: 17px;
   }
+  .main_input {
+    height: 46px;
+  }
   .home {
     margin: 45px 0;
   }
@@ -537,6 +555,36 @@ label {
   .home .main_btn {
     margin: 20px 0 40px 0;
     max-width: 216px;
+  }
+  .contact {
+    margin-top: 110px;
+  }
+  .contact_left {
+    border-radius: 100px 0px 201px 100px;
+  }
+  .contact_left .main_img {
+    right: -60px;
+    height: 596px;
+    max-width: 544px;
+  }
+  .contact_left .free_icon {
+    top: 20px;
+    right: 20px;
+  }
+  .contact_form {
+    max-width: 100%;
+    padding: 40px;
+  }
+  .contact .main_title {
+    text-align: center;
+  }
+  .contact h6 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .contact p {
+    font-size: 15px;
+    line-height: 18px;
   }
   .connect {
     margin-top: 110px;
@@ -600,6 +648,32 @@ label {
   }
   .home_img {
     padding: 0 30px;
+  }
+  .contact {
+    margin-top: 80px;
+    padding: 0 10px;
+  }
+  .contact_block {
+    flex-direction: column-reverse;
+    border-radius: 100px 100px 201px 100px;
+  }
+  .contact_left {
+    height: 445px;
+  }
+  .contact_left .main_img {
+    right: -35px;
+    width: 478px;
+    height: 524px;
+  }
+  .contact_left .free_icon {
+    z-index: 2;
+    width: 224px;
+    height: 224px;
+    left: 90px;
+    top: 90px;
+  }
+  .contact .main_title br {
+    display: none;
   }
   .connect {
     margin-top: 80px;
@@ -723,6 +797,32 @@ label {
     margin: 0;
     width: 100%;
     max-width: 100%;
+  }
+  .contact {
+    margin-top: 40px;
+  }
+  .contact_block {
+    border-radius: 30px 30px 92px 50px;
+  }
+  .contact_form {
+    padding: 20px 8px;
+  }
+  .contact_left {
+    height: 275px;
+    border-radius: 50px 0 92px 50px;
+  }
+  .contact_left .main_img {
+    width: 241px;
+    height: 295px;
+    right: -23px;
+  }
+  .contact_left .free_icon {
+    width: 121px;
+    height: 121px;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    left: 8px;
   }
   .connect {
     margin-top: 50px;
