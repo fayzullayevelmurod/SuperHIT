@@ -69,6 +69,8 @@ try {
   }
 } catch (error) {}
 
+
+try {
 // timer
 (function () {
   const second = 1000,
@@ -115,3 +117,4 @@ try {
     }, 0);
 })();
 // timer
+} catch(error) {}

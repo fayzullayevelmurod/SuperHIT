@@ -292,9 +292,13 @@ label {
 }
 .home .title_two {
   max-width: 100%;
+  font-size: 78px;
 }
 .home .main_btn {
   max-width: 239px;
+}
+.home .home_three_btn {
+  max-width: 310px;
 }
 .home_text_title {
   margin: 20px 0;
@@ -823,6 +827,10 @@ label {
     font-size: 60px;
     line-height: 66px;
   }
+  .home_text_title .title_two {
+    font-size: 60px;
+    line-height: 66px;
+  }
   .home_text_title h2 {
     font-size: 110px;
     line-height: 121px;
@@ -836,6 +844,9 @@ label {
   }
   .home .main_btn {
     max-width: 216px;
+  }
+  .home .home_three_btn {
+    max-width: 310px;
   }
   .contact {
     margin-top: 110px;
@@ -1074,12 +1085,24 @@ label {
   .header .main_btn {
     display: none;
   }
+  .header .menu .main_btn {
+    display: flex;
+  }
   .home_top_text {
     display: none;
   }
   .home_text_title {
     margin: 0;
     flex-direction: column;
+  }
+  .home_text h1, .home_text .title_two {
+    text-align: center;
+    font-size: 36px;
+    line-height: 39px;
+  }
+  .home_text .one_title {
+    font-size: 60px;
+    line-height: 66px;
   }
   .home_text h2 {
     font-size: 80px;
@@ -1089,9 +1112,7 @@ label {
     padding: 0;
   }
   .home .partners {
-    margin-top: 20px;
-    flex-wrap: wrap;
-    gap: 5px;
+    display: none;
   }
   .home p {
     margin: 20px 0;

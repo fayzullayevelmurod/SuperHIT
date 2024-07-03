@@ -40,6 +40,11 @@
           line-height: 66px;
         }
 
+        .title_two {
+          font-size: 60px;
+          line-height: 66px;
+        }
+
         h2 {
           font-size: 110px;
           line-height: 121px;
@@ -58,6 +63,10 @@
 
     .main_btn {
       max-width: 216px;
+    }
+
+    .home_three_btn {
+      max-width: 310px;
     }
   }
 
@@ -374,6 +383,12 @@
     .main_btn {
       display: none;
     }
+
+    .menu {
+      .main_btn {
+        display: flex;
+      }
+    }
   }
 
   .home {
@@ -387,6 +402,17 @@
         flex-direction: column;
       }
 
+      h1, .title_two {
+        text-align: center;
+        font-size: 36px;
+        line-height: 39px;
+      }
+
+      .one_title {
+        font-size: 60px;
+        line-height: 66px;
+      }
+
       h2 {
         font-size: 80px;
         line-height: 88px;
@@ -398,9 +424,7 @@
     }
 
     .partners {
-      margin-top: 20px;
-      flex-wrap: wrap;
-      gap: 5px;
+      display: none;
     }
 
     p {
