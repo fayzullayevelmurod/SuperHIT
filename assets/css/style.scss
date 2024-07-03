@@ -369,6 +369,7 @@ label {
 
 // connect
 .connect {
+    margin-top: 150px;
 
     .step_block {
         @include flex-center();
@@ -433,5 +434,120 @@ label {
     }
 }
 // connect
+
+// footer
+.footer {
+    margin-top: 150px;
+    background: $color-black;
+
+    &_top {
+        padding: 150px 0;
+    }
+
+    &_media {
+        display: none;
+    }
+
+    &_bottom {
+        background: #0E0F15;
+        padding: 20px 0;
+
+        &_text {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        span {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            color: $color-white;
+        }
+    }
+
+    &_left {
+        display: flex;
+        flex-direction: column;
+        gap: 308px;
+        position: relative;
+    }
+
+    &_right {
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+    }
+
+    &_buy {
+        position: absolute;
+        width: 392px;
+        height: 392px;
+        right: 0;
+        // position: relative;
+
+        .main_btn {
+            position: absolute;
+            left: 81px;
+            bottom: 92px;
+            max-width: 201px;
+            transform: rotate(12deg);
+            max-width: 201px;
+        }
+    }
+
+    &_text_link {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        a {
+            max-width: 293px;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20.4px;
+            color: $color-white;
+        }
+    }
+
+    &_bank {
+        margin-top: 50px;
+        @include flex-center();
+        gap: 20px;
+    }
+
+    &_link {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        a {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+            color: $color-white;
+            @include transition();
+
+            &:hover {
+                color: $color-accent;
+            }
+        }
+    }
+
+    &_information {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        a,
+        address {
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 48.01px;
+            color: $color-white;
+        }
+    }
+}
+// footer
 
 @import './responsive';
