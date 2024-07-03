@@ -775,6 +775,11 @@ label {
       font-weight: 400;
       line-height: 20.4px;
       color: $color-white;
+      @include transition();
+
+      &:hover {
+        color: $color-accent;
+      }
     }
   }
 
@@ -813,6 +818,14 @@ label {
       font-weight: 400;
       line-height: 48.01px;
       color: $color-white;
+    }
+
+    a {
+      @include transition();
+
+      &:hover {
+        color: $color-accent;
+      }
     }
   }
 }

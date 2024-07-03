@@ -617,6 +617,10 @@ label {
   font-weight: 400;
   line-height: 20.4px;
   color: #ffffff;
+  transition: 0.3s ease;
+}
+.footer_text_link a:hover {
+  color: #f0386b;
 }
 .footer_bank {
   margin-top: 50px;
@@ -650,6 +654,12 @@ label {
   font-weight: 400;
   line-height: 48.01px;
   color: #ffffff;
+}
+.footer_information a {
+  transition: 0.3s ease;
+}
+.footer_information a:hover {
+  color: #f0386b;
 }
 
 .modal .modal-content {
