@@ -392,6 +392,7 @@
   }
 
   .home {
+    margin: 40px 0;
     &_top_text {
       display: none;
     }
@@ -435,6 +436,7 @@
       width: 100%;
       flex-direction: column;
       gap: 10px;
+      margin: 20px 0 0 0;
 
       .main_btn {
         justify-content: space-between;
