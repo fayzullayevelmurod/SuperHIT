@@ -373,6 +373,10 @@ label {
 .contact .main_btn span {
   color: #ffffff;
 }
+.contact .main_input {
+  border: none;
+  color: #1a1b25;
+}
 .contact form {
   display: flex;
   flex-direction: column;

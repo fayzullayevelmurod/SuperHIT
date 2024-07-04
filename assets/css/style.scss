@@ -483,6 +483,11 @@ label {
     }
   }
 
+  .main_input {
+    border: none;
+    color: $color-black;
+  }
+
   form {
     display: flex;
     flex-direction: column;
