@@ -18,6 +18,11 @@ menu_bg.addEventListener("click", () => {
   menu_bg.classList.remove("active");
   menu.classList.remove("active");
 });
+
+menu.addEventListener("click", () => {
+  menu_bg.classList.remove("active");
+  menu.classList.remove("active");
+});
 // burger
 
 try {
